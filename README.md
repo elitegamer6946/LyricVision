@@ -14,7 +14,28 @@ LyricVision is an AI-powered application that generates music videos from song l
    git clone https://github.com/your-username/LyricVision.git
    cd LyricVision
    
-2.Install the dependencies:
+2. Install the dependencies:
    ```bash
    pip install -r backend/requirements.txt
 
+3. Run the backend:
+   ```bash
+   python backend/app.py
+   
+4. Run the frontend:
+   ```bash
+   streamlit run frontend/app.py
+
+
+# Usage
+1.Upload a song in the frontend.
+2.The backend will process the song, extract lyrics, and generate a music video.
+3.Download the generated video from the output directory.
+
+#Technologies Used
+- **OpenAI Whisper**: For lyrics extraction.
+librosa: For beat and tempo analysis.
+GPT-Neo: For visual prompt generation.
+Zeroscope: For video generation.
+Flask: Backend server.
+Streamlit: Frontend interface.
