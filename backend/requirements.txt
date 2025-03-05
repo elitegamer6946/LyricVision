@@ -1,0 +1,12 @@
+flask
+librosa
+transformers
+diffusers
+torch
+opencv-python
+requests
+streamlit
+soundfile
+ffmpeg-python
+pydub
+openai-whisper
