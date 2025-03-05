@@ -34,7 +34,7 @@ LyricVision is an AI-powered application that generates music videos from song l
 
 # Technologies Used
 - **OpenAI Whisper**: For lyrics extraction.
-- **librosa**: For beat and tempo analysis.
+- **Librosa**: For beat and tempo analysis.
 - **GPT-Neo**: For visual prompt generation.
 - **Zeroscope**: For video generation.
 - **Flask**: Backend server.
