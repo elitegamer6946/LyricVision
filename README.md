@@ -1,2 +1,20 @@
-# LyricVision
-An AI-powered application that generates music videos from song lyrics and beats.
+# LyricVision: AI-Powered Music Video Generator
+
+LyricVision is an AI-powered application that generates music videos from song lyrics and beats. It uses OpenAI Whisper for lyrics extraction, librosa for beat and tempo analysis, and Zeroscope for video generation.
+
+## Features
+- **Lyrics Extraction**: Automatically extracts lyrics from uploaded songs using OpenAI Whisper.
+- **Beat and Tempo Analysis**: Analyzes the song's beats and tempo using librosa.
+- **Visual Prompt Generation**: Generates a visual prompt based on the lyrics using GPT-Neo.
+- **Video Generation**: Creates a music video synchronized with the song's beats using Zeroscope.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/LyricVision.git
+   cd LyricVision
+   
+2.Install the dependencies:
+   ```bash
+   pip install -r backend/requirements.txt
+
